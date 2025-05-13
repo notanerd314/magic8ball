@@ -22,7 +22,7 @@ function applyFunctionToModalClose() {
     });
 }
 
-var shakingSound = new Audio('/media/shaking.wav');
+var shakingSound = new Audio('/magic8ball/media/shaking.wav');
 const eightBallNormal = `<defs>
             <radialGradient id="SVGID_1_" cx="65.0846" cy="90.9897" r="146.5501" gradientUnits="userSpaceOnUse"
                 gradientTransform="matrix(5.8593058586120605,0,0,5.439137935638428,149.6584014892578,-166.16000366210938)">
