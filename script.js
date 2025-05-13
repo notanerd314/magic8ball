@@ -158,8 +158,8 @@ optionsButton?.addEventListener("click", () => {
 eightBallResponsesArea?.addEventListener("keydown", () => {
     const urlParams = new URLSearchParams(window.location.search);
     urlParams.set("responses", eightBallResponsesArea.value);
-    shareText.value = `${window.location.origin}?${urlParams.toString()}`;
-    embedShareText.value = `<iframe src="${window.location.origin}/?${urlParams.toString()}&embed=true" width="400" height="400" />`;
+    shareText.value = `${window.location.origin}/magic8ball?${urlParams.toString()}`;
+    embedShareText.value = `<iframe src="${window.location.origin}/magic8ball?${urlParams.toString()}&embed=true" width="400" height="400" />`;
 });
 
 if (window.location.search.includes("embed=true")) {
